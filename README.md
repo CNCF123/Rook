@@ -10,8 +10,11 @@ helm install --namespace rook-ceph --name rook-ceph rook-ceph的目录
 
 #### 2. 创建集群
 #### 注意关于 node信息的配置
+git clone https://github.com/rook/rook
+cd rook/cluster/examples/kubernetes/ceph
+
 kubectl apply -f cluster.yaml
 
-#### 3.创建存储类StorageClass
+kubectl apply -f srotageclass.yaml  #创建存储类StorageClass
 
-kubectl apply -f srotageclass.yaml
+kubectl apply -f toolbox.yaml  #创建管理工具
