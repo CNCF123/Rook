@@ -4,13 +4,15 @@ rook-ceph 存储管理工具
 ### 安装步骤：
 
 #### 1.使用helm
-https://github.com/rook/rook/tree/master/cluster/charts/rook-ceph
+git clone https://github.com/rook/rook.git
+
+cd rook/cluster/charts
 
 helm install --namespace rook-ceph --name rook-ceph rook-ceph的目录
 
 #### 2. 创建集群
 #### 注意关于 node信息的配置
-git clone https://github.com/rook/rook
+git clone https://github.com/rook/rook.git
 
 cd rook/cluster/examples/kubernetes/ceph
 
