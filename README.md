@@ -1,5 +1,5 @@
-# rook-ceph
-rook-ceph 存储管理工具
+# rook
+rook 存储管理工具
 
 ### 安装步骤：
 
