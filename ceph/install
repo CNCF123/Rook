@@ -2,6 +2,6 @@ https://rook.io/docs/rook/v1.4/ceph-quickstart.html
 
 git clone --single-branch --branch v1.4.3 https://github.com/rook/rook.git
 cd rook/cluster/examples/kubernetes/ceph
-kubectl create -f common.yaml
-kubectl create -f operator.yaml
-kubectl create -f cluster.yaml
+kubectl create -f common.yaml #直接执行
+kubectl create -f operator.yaml #直接执行
+kubectl create -f cluster.yaml #需要更改配置
